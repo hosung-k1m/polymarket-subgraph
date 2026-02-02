@@ -4,17 +4,25 @@
 
 * activity-subgraph
 
-* fpmm-subgraph
+* fpmm-subgraph - Contains the `FixedProductMarketMaker` entity, which represents automated market makers (AMMs) for prediction markets. Schema: `fpmm-subgraph/schema.graphql`
 
 * oi-subgraph
 
-* orderbook-subgraph
+* orderbook-subgraph - Contains the `MarketData` entity for orderbook-based markets. Schema: `orderbook-subgraph/schema.graphql`
 
 * pnl-subgraph
 
 * polymarket-subgraph
 
-* sports-oracle-subgraph
+* sports-oracle-subgraph - Contains the `Market` entity for sports betting markets. Schema: `sports-oracle-subgraph/schema.graphql`
+
+## Schema Locations
+
+Market schemas are defined in the following locations:
+
+* **Automated Market Maker (FPMM) Markets**: `fpmm-subgraph/schema.graphql` - The `FixedProductMarketMaker` entity defines AMM-based prediction markets
+* **Orderbook Markets**: `orderbook-subgraph/schema.graphql` - The `MarketData` entity defines orderbook-based markets
+* **Sports Betting Markets**: `sports-oracle-subgraph/schema.graphql` - The `Market` entity defines sports betting markets
 
 ## Environment Variables
 

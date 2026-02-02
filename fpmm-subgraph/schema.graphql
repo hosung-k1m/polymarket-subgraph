@@ -1,3 +1,7 @@
+# FPMM Subgraph Schema
+# This schema defines entities for Automated Market Maker (AMM) based prediction markets.
+# The main entity is FixedProductMarketMaker, which represents an AMM market.
+
 type Condition @entity {
   "conditionId"
   id: ID!

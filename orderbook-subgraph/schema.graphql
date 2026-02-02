@@ -1,3 +1,7 @@
+# Orderbook Subgraph Schema
+# This schema defines entities for orderbook-based markets.
+# The main entity is MarketData, which represents market information for CTF (Conditional Token Framework) assets.
+
 type MarketData @entity {
   "ERC1155 TokenID of the CTF Asset"
   id: ID!

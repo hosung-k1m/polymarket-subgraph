@@ -1,3 +1,7 @@
+# Sports Oracle Subgraph Schema
+# This schema defines entities for sports betting markets.
+# The main entity is Market, which represents a sports betting market linked to a Game.
+
 type Game @entity {
   "The Game ID"
   id: ID!
